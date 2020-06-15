@@ -47,7 +47,6 @@
         "templateLink": {
           "uri": "https://raw.githubusercontent.com/kevinzhang999/AzureRmPipeline-repo/master/CreateWebApp/linkedStorageAccount.json?token=AMKMOHVUEN4DOXQLNH5WJ2S647EGU
 "
-          # "uri": "[parameters('linkedTemplateUri')]"
         },
         "parameters": {
           "storageAccountName": {
