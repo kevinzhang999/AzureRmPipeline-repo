@@ -6,6 +6,7 @@
       "type": "string",
       "minLength": 3,
       "maxLength": 11,
+      "defaultValue" : "ARM",
       "metadata": {
         "description": "Specify a project name that is used to generate resource names."
       }
@@ -26,6 +27,7 @@
     },
     "linkedTemplateUri": {
       "type": "string",
+      "defaultValue": "https://raw.githubusercontent.com/kevinzhang999/AzureRmPipeline-repo/60ce193777b84dbb02a3f8a9b915769c33e3386e/CreateWebApp/linkedStorageAccount.json?token=AMKMOHWYVINVCTK7KG7HURS647GNK",
       "metadata": {
         "description": "The Uri of the linked template."
       }
